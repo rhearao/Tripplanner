@@ -1,0 +1,45 @@
+.marker {
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.mapboxgl-marker {
+  z-index: 2;
+}
+
+.detailsTemp {
+  position: absolute;
+  bottom: 0;
+}
+
+.eventMarker {
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("../Assets/eventPin.png");
+}
+
+.hereButton {
+  background-size: cover;
+  /* width: 20px;
+  height: 20px; */
+}
+
+.highlightedEventMarker {
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("../Assets/selectedEventPin.png");
+}
+
+.marker1 {
+  background-image: url("../Assets/currentLocation.png");
+}
